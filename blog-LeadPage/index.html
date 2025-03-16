@@ -16,16 +16,16 @@
   <meta name="author" content="憨神">
   <meta name="keywords" content="">
   
-    <meta name="description" content="fanfan的个人引导页                                                                                                    fanfan的个人引导页        情动于中而形于言，言之不足，&nbsp;故嗟叹之，嗟叹之不足，故永歌之。">
+    <meta name="description" content="引导页                                             &#x2F;* 添加按钮样式 *&#x2F;     #center-button {       position: fixed;       top: 50%;       left: 50%;       transform: translate(-50%, -50%);       padding:">
 <meta property="og:type" content="website">
 <meta property="og:title" content="page.title">
 <meta property="og:url" content="http://example.com/blog-LeadPage/index.html">
 <meta property="og:site_name" content="en....">
-<meta property="og:description" content="fanfan的个人引导页                                                                                                    fanfan的个人引导页        情动于中而形于言，言之不足，&nbsp;故嗟叹之，嗟叹之不足，故永歌之。">
+<meta property="og:description" content="引导页                                             &#x2F;* 添加按钮样式 *&#x2F;     #center-button {       position: fixed;       top: 50%;       left: 50%;       transform: translate(-50%, -50%);       padding:">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/blog-LeadPage/images/icon-fa-gem.png">
-<meta property="article:published_time" content="2025-03-16T07:01:24.592Z">
-<meta property="article:modified_time" content="2025-03-16T07:01:24.592Z">
+<meta property="article:published_time" content="2025-03-16T07:48:39.159Z">
+<meta property="article:modified_time" content="2025-03-16T07:48:39.159Z">
 <meta property="article:author" content="憨神">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/blog-LeadPage/images/icon-fa-gem.png">
@@ -255,7 +255,7 @@
   <!DOCTYPE html>
 <html>
  <head> 
-  <title>fanfan的个人引导页</title> 
+  <title>引导页</title> 
   <meta name="description" content="那些暗潮汹涌的 见不得人的 无法诉之于口的才是我真正的生活|关键词：Suinian,Nianbroken" /> 
   <meta charset="utf-8" /> 
   <meta http-equiv="content-language" content="zh-cn" /> 
@@ -265,6 +265,32 @@
   <noscript> 
    <link rel="stylesheet" href="assets/css/noscript.css" /> 
   </noscript>
+  <style>
+    /* 添加按钮样式 */
+    #center-button {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 15px 30px;
+      font-size: 18px;
+      color: white;
+      background-color: transparent;
+      border: 2px solid white;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1000; /* 确保按钮在最上层 */
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s; /* 添加过渡效果 */
+      dispaly: block;
+    }
+    
+    /* 鼠标悬停效果 */
+    #center-button:hover {
+      background-color: white; /* 背景变为白色 */
+      color: #007BFF; /* 字体颜色变为蓝色 */
+    }
+  </style>
  </head> 
  <body class="is-preload"> 
   <!-- Wrapper --> 
@@ -272,18 +298,17 @@
    <!-- Header --> 
    <header id="header"> 
     <div class="icon"> 
-     <img src="images/icon-fa-gem.png" srcset="/img/loading.gif" lazyload alt="fanfan个人引导页" title="fanfan个人引导页" class="logo" /> 
+     <img src="images/icon-fa-gem.png" srcset="/img/loading.gif" lazyload alt="引导页" title="引导页" class="logo" /> 
     </div> 
     <div class="content"> 
      <div class="inner"> 
-      <h1>fanfan的个人引导页</h1> 
+      <h1>引导页</h1> 
       <p>情动于中而形于言，言之不足，&nbsp;故嗟叹之，嗟叹之不足，故永歌之。</p>
      </div> 
     </div> 
     <nav> 
      <ul> 
       <li> <a target="_blank" rel="noopener" href="http://blog.fanliu.top/">博客</a></li> 
-	  <li> <a target="_blank" rel="noopener" href="http://120.79.17.182/love/">表白页面</a></li> 
       <!--<li><a href="#elements">Elements</a></li>--> 
      </ul> 
     </nav> 
@@ -297,7 +322,10 @@
 	<p class="copyright">纵有千古，横有八方；前途似海，来日方长</p> 
    </footer> 
   </div> 
-  <canvas id="sakura" style="z-index: 2;
+  <!-- 添加按钮 -->
+  <button id="center-button" onclick="window.location.href='https://hanhanshen520.github.io'">残花无零，落红无情</button>
+  
+  <canvas id="sakura" style="z-index: 0;
     position: fixed;
     left: 0;
     top: 0;
